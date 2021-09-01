@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 def dfs(visited, graph, node):
     if node not in visited:
@@ -53,4 +49,3 @@ if __name__ == '__main__':
             dfs_visitados = dfs(visiteds, graph1, item)
 
     print(dfs_visitados)
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
